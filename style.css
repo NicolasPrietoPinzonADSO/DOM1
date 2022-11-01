@@ -1,47 +1,33 @@
-.img{
-    margin: 0px auto;
-    display: block;
+*{
+    font-family: 'Trispace', sans-serif;
+
 }
-#mainDiv{
-    align-items: center;
+body{
+    background-color: slateblue;
 }
-.center{
-    margin: 0px auto;
-}
-.primeraFila{
-    background: #fe8737;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+h1{
+    text-align: center;
 }
 
-input[type="text"]{
-    display: block;
+#horaTrabajada{
+    margin: 40px 100px 10px;
 }
-input[type="submit"]{
-    display: block;
-    margin-top: 10px;
+label, p{
+    margin: 40px 100px 10px;
+    font-size: 25px;
 }
-.cajaTitulos{
-    background: #fe8737;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
+#pago{
+    opacity: 0;    
+    display: inline-block;
+    padding: 10px 50px;
 }
-table thead tr th{
-    padding: 10px;
+.contenedor{
+    position: absolute;
 }
-table tbody tr{
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+input[type='submit']{
+    width: 100px;
+    height: 30px;
 }
-table tbody tr:nth-child(2n+1){
-    background: #ffd9ce;
-}
-table tbody tr:nth-child(2n){
-    background: #ffeee7;
-}
-h3{
-    margin: 50px;
-}
-form{
-    margin: 50px;
+input[type='text']{
+    height: 23px;
 }
